@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    padding: 20px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    background-color:pink;
+    border-radius: 15px;
+    align-items: center;
+
+}
+.nav-title{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    padding: 15px;
+}
+.search-box{
+    width: 30%;
+    background-color: pink;
+    height: 30px;
+    cursor: pointer;
+    padding: 5px;
+}
+.movie-list{
+    width: 40%;
+background-color: gray;
+border-radius: 15px;
+margin: 20px;
+}
+.movie{
+    display: flex;
+    flex: row;
+}
+.movie img{
+    width: 50px;
+    height: 60px;
+    padding: 10px;
+
+}
+.movie .text{
+    padding: 10px;
+    color: aliceblue;
+}
